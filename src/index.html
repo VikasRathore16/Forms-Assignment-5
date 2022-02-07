@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+        </div>
+        <div class="main">
+            <div class="details">
+                <form onsubmit="event.preventDefault(); users()">
+                    <div class="user">
+                    <dv class="col">
+                        <label for="Name" class="row">Name</label>
+
+                        <label for="Age" class="row">Age</label>
+
+                        <label for="Weight" class="row">Weight</label>
+                    </dv>
+                    <div class="col">
+                        <input type="text" id="Name" required>
+                        <input type="text" id="Age" required>
+                        <input type="text" id="Weight" required>
+                    </div>
+                    </div>
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+            </div>
+        </div>
+        <div class="information">
+            <p id="msg"></p>
+        </div>
+    </div>
+    </div>
+</body>
+<script rel="text/javascript" src="script.js"></script>
+
+</html>
